@@ -1,0 +1,17 @@
+﻿<Window x:Class="Exam.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exam"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Game" Height="450" Width="800" WindowStyle="ToolWindow">
+    <Grid>
+        <TextBlock  FontSize="16" FontWeight="Bold" FontFamily="Comic Sans MS" Foreground="#FF7730CE" Name ="TextBlock" HorizontalAlignment="Left" Margin="94,139,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock  FontSize="20" FontWeight="Bold" FontFamily="Comic Sans MS" Foreground="#FF7730CE" x:Name ="TheEnd" HorizontalAlignment="Left" Margin="328,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207"><Run Language="ru-ru" Text="Время вышло!"/></TextBlock>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="195,333,0,0" VerticalAlignment="Top" Width="133" Click="Button_Click"  FontSize="16" FontWeight="Bold" FontFamily="Comic Sans MS" Foreground="#FF7730CE" BorderBrush="White" Background="White"/>
+        <Button Content="Перезапуск" HorizontalAlignment="Left" Margin="477,333,0,0" VerticalAlignment="Top" Width="133" Click="Button_Click_1" FontSize="16" FontWeight="Bold" FontFamily="Comic Sans MS" Foreground="#FF7730CE" Background="White" BorderBrush="White" RenderTransformOrigin="0.211,0.42"/>
+        <TextBlock  FontSize="16" FontWeight="Bold" FontFamily="Comic Sans MS" Foreground="#FF7730CE" x:Name ="TextBlock2" HorizontalAlignment="Left" Margin="94,199,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
